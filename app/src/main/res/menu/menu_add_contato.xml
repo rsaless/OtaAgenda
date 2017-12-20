@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:title="Salvar"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_take_picture"
+        android:title="Tirar Foto"
+        android:icon="@drawable/ic_take_picture"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_send_sms"
+        android:title="Enviar SMS"
+        android:icon="@drawable/ic_send_sms"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_view_on_map"
+        android:title="Ver no mapa"
+        android:icon="@drawable/ic_view_map"
+        app:showAsAction="never"/>
+
+</menu>

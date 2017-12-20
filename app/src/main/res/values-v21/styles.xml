@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- barra do menu -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- barra de tarefas -->
+        <item name="colorAccent">@color/colorAccent</item><!-- checkboxes e textfields, Cor do texto selecionado -->
+        <item name="colorControlNormal">@color/colorAccent</item> <!--campo não selecionado -->
+        <item name="colorControlActivated">@color/Teal800</item> <!-- Campo selecionado -->
+        <item name="colorControlHighlight">@color/Teal800</item><!-- ?? -->
+        <item name="android:textColorPrimary">@color/White</item><!-- cor primaria de texto -->
+        <item name="android:windowBackground">@color/Teal300</item><!-- plano de fundo principal -->
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- barra do menu -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- barra de tarefas -->
+        <item name="colorAccent">@color/colorAccent</item><!-- checkboxes e textfields, Cor do texto selecionado -->
+        <item name="colorControlNormal">@color/colorAccent</item> <!--campo não selecionado -->
+        <item name="colorControlActivated">@color/Teal800</item> <!-- Campo selecionado -->
+        <item name="colorControlHighlight">@color/Teal800</item><!-- ?? -->
+        <item name="android:textColorPrimary">@color/White</item><!-- cor primaria de texto -->
+        <item name="android:navigationBarColor">@color/Black</item><!-- barra de navegação -->
+        <item name="android:windowBackground">@color/Teal300</item><!-- plano de fundo principal -->
+    </style>
+</resources>
