@@ -32,6 +32,7 @@ public class AddContactActivity extends AppCompatActivity implements AddContactV
     @BindView(R.id.txtTelefone) public EditText telefone;
     @BindView(R.id.imgFoto) public ImageView foto;
 
+
     private static final int CODIGO_CAMERA = 123;
     public String caminhoFoto;
 
@@ -42,7 +43,6 @@ public class AddContactActivity extends AppCompatActivity implements AddContactV
         StrictMode.setVmPolicy(builder.build());
         setContentView(R.layout.activity_add_contact);
         ButterKnife.bind(this);
-
         addContactPresenter = new AddContactPresenter(this);
         addContactPresenter.showContact((Contato) getIntent().getSerializableExtra("exibir_contato"));
     }
