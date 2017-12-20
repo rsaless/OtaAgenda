@@ -11,6 +11,8 @@ public class MainPresenter {
     MainView mainView;
     private List<Contato> contactList = new ArrayList<>();
 
+
+    //test comment
     public MainPresenter(MainView mainView){
         this.mainView = mainView;
     }
