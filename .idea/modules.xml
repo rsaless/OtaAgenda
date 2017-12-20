@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OtaAgenda.iml" filepath="$PROJECT_DIR$/OtaAgenda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OtaAgenda.iml" filepath="$PROJECT_DIR$/.idea/OtaAgenda.iml" />
+      <module fileurl="file://C:\Users\Rafael\Desktop\OtaAgenda\OtaAgenda.iml" filepath="C:\Users\Rafael\Desktop\OtaAgenda\OtaAgenda.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Rafael\Desktop\OtaAgenda\app\app.iml" filepath="C:\Users\Rafael\Desktop\OtaAgenda\app\app.iml" />
     </modules>
   </component>
 </project>

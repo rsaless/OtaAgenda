@@ -11,7 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -19,20 +18,43 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths"/>
+                android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".Login.LoginActivity" android:theme="@style/AppThemeNoActionBar" />
-        <activity android:name=".Main.MainActivity" android:theme="@style/AppTheme" android:label="Contatos"/>
-        <activity android:name=".AddContact.AddContactActivity" android:theme="@style/AppTheme" android:label="Adicionar" />
-        <activity android:name=".Splashscreen.SplashscreenActivity" android:theme="@style/AppThemeNoActionBar">
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+
+        <activity
+            android:name=".Main.MainActivity"
+            android:label="Contatos"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AddContact.AddContactActivity"
+            android:label="Adicionar"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Splashscreen.SplashscreenActivity"
+            android:theme="@style/AppThemeNoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".ShowContact.ShowContactActivity"
+            android:label="Contato"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Splashscreen.OtaSplashScreenActivity"
+            android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowContact.ShowContactActivity" android:theme="@style/AppTheme" android:label="Contato"/>
     </application>
 
 </manifest>
